@@ -1,0 +1,9 @@
+# .github/workflows/weft-manual.yml — committed by scripts/manual-github-runners.sh run
+name: weft-manual
+on:
+  workflow_dispatch:
+jobs:
+  ok:
+    runs-on: weft
+    steps:
+      - run: echo ok
